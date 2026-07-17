@@ -1,6 +1,7 @@
 # Local .terraform directories
 .terraform/
-.k8s/secret.yaml
+secret.yaml
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
