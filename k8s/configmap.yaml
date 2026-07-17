@@ -1,0 +1,10 @@
+apiVersion: v1
+
+kind: ConfigMap
+
+metadata:
+  name: backend-config
+  namespace: 3d-tool
+
+data:
+  PORT: "5000"
