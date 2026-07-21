@@ -1,19 +1,27 @@
 variable "aws_region" {
-  description = "AWS Region"
-  type        = string
+  type = string
 }
 
 variable "cluster_name" {
-  description = "EKS Cluster Name"
-  type        = string
+  type = string
 }
 
-variable "node_instance_type" {
-  description = "EKS Worker Node Instance Type"
-  type        = string
+variable "vpc_cidr" {
+  type = string
 }
 
-variable "desired_nodes" {
-  description = "Desired worker nodes"
-  type        = number
+variable "instance_type" {
+  type = string
+}
+
+variable "desired_size" {
+  type = number
+}
+
+variable "min_size" {
+  type = number
+}
+
+variable "max_size" {
+  type = number
 }
